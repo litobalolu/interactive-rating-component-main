@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+.attribution { font-size: 14px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    background: hsl(216, 12%, 8%);
+    color: white;
+}
+.container{
+    width: 100%;
+}
+
+.container{
+    background-color: hsl(213, 19%, 18%) ;
+    width: 400px;
+    height: auto;
+    margin: 10em auto;
+    padding: 1.8em 1.5em;
+    border-radius: 1em;
+}
+.star-container{
+    background-color: hsl(212, 13%, 25%);
+    border-radius: 48%;
+    width: 35px;
+    height: 35px;
+}
+.star-container svg{
+    width: auto;
+    height: auto;
+    position: relative;
+margin: .575em;
+}
+.text-container{
+    text-align: left;
+    margin: 1.3em auto; 
+}
+.text-container h2{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: rgb(249, 234, 234);
+}
+.text-container p{
+    margin: .6em auto;
+    font-size: .98em;
+    color:hsl(217, 12%, 63%);
+}
+.btn{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(212, 13%, 25%);
+    margin: 0px 0px 1em 1em;
+}
+.btn::after,
+.btn:hover{
+    background: hsl(25, 97%, 53%);
+    transition: 250ms ease-in-out;
+}
+.focus-btn{
+    background-color: hsl(25, 97%, 53%);
+}
+.submit{
+    width: 90%;
+    margin: 1em;
+    padding: .8em;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 1.6em;
+}
+
+.submit:hover{
+    background: #fff;
+    color: #333;
+    transition: ease-in-out 250ms;
+}
+/* =====Thank you part */
+.sub-page{
+    display: none;
+    padding: 1.1em;
+    text-align: center;
+   
+}
+.img-container{
+ display: flex;
+ justify-content: center;
+}
+.selected{
+    display: inline-block;
+    color: hsl(25, 97%, 53%);
+    font-size: 1em;
+    background-color: hsl(212, 13%, 25%);
+    width: 65%;
+    padding: .3em;
+    font-weight: 700;
+    border-radius: 1em;
+    margin: 1.2em auto;
+}
+.thank-you{
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: .2em;
+}
+.thank-you-text p{
+    margin: .6em .2em;
+    font-size: 1em;
+    color: hsl(217, 12%, 63%);
+
+}
+@media(max-width: 30em){
+    .container{
+       width: 80vw;
+       margin: 1em auto;
+       height: auto;
+    }
+    .btn{
+        width: 40px;
+        height: 40px;
+        margin: 0px 0px .7em .3em;
+    }
+}
+
+ .danger{
+    display: none;
+    text-align: center;
+    background: rgb(0, 0, 0,0.8);
+    color: red;
+ margin: 0 5em;
+ padding: .5em;
+ border-radius: 1em;
+}
+    /* =====for display after clicking the button===== */
+.first{
+    display: none;
+}
+.second{
+    display: block;
+}
