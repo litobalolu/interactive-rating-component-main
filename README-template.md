@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://replit.com/@ObaloluwaOladun/interractive-rating-card)
-- Live Site URL: [Add live site URL here](https://interractive-rating-card.obaloluwaoladun.repl.co/)
+- Solution URL: [ solution URL](https://replit.com/@ObaloluwaOladun/interractive-rating-card)
+- Live Site URL: [ live site URL](https://interractive-rating-card.obaloluwaoladun.repl.co/)
 
 ## My process
 
